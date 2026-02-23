@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Montserrat", Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "geometus";
+  src: url("/fonts/GeometosNeueBold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  display: grid;
+  padding: 2rem;
+  width: 100%;
+  height: 90vh;
+  place-items: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "geometus";
+}
+
+.Link{
+  font-family: "geometus";
+}
